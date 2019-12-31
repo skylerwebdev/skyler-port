@@ -4,7 +4,11 @@
     word-wrap: none;
     justify-content: space-around;
     width: 75%;
-    margin: 100px auto -100px;
+    margin: 100px auto;
+}
+.homemain{
+    width: 75%;
+    margin: 0 auto;
 }
 .homeLeft {
     flex: 1;
@@ -27,8 +31,27 @@
 }
 .Header{
 font-family: "Anton", sans-serif;
+
 }
+
 .profile
 {
     height: 200px;
+}
+.homeMid{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.subhead{
+    text-align: center;
+}
+li{
+    font-family: "Lato", sans-serif;;
+}
+.homeMidLeft{
+flex:1;
+}
+.homeMidMid{
+flex:2;
 }
