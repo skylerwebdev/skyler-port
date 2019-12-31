@@ -1,0 +1,27 @@
+.prMain {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: none;
+    justify-content: space-around;
+    width: 75%;
+    /* border:1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    margin: 100px auto;
+    flex-direction: column;
+  }
+  .prTop{
+      display: flex;
+  }
+  .prTopLt .prTopMd .prTopRt{
+
+  }
+  .prTopLt{
+    flex: 1;
+  }  
+  .prTopMd{
+    flex: 2;
+  }
+  .prTopRt{
+
+  }
