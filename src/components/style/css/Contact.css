@@ -1,0 +1,91 @@
+:root {
+  --font-family1: "Anton", sans-serif;
+  --font-family2: "Roboto", sans-serif;
+  --font-family3: "Lato", sans-serif;
+}
+
+.contactMain {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: none;
+  justify-content: space-around;
+  width: 75%;
+  /* border:1px solid black; */
+  margin: 0 auto;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.resume {
+  /* max-width: 390px; */
+  height: 506px;
+  cursor: zoom-in;
+}
+.header {
+  font-family: var(--font-family1);
+  font-size: 2.5rem;
+  text-align: center;
+
+  color: #0a2239;
+}
+.contactLeft .contactMid .contactRight {
+  flex: 1;
+  margin: 1rem auto;
+}
+.contactMid {
+  word-wrap: none;
+  white-space: nowrap;
+}
+.contactLeft {
+  margin-top: 182px;
+}
+.contactShit {
+  line-height: 0.3;
+}
+.contactRight {
+  margin-top: 182px;
+}
+.headerForm {
+  margin-bottom: -10px;
+}
+.ghlogo {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.lilogo {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.twlogo {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.contactRight {
+  display: flex;
+  flex-direction: column;
+}
+.resume {
+  box-shadow: 5px 4px 15px 1px rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+@media all and (max-width: 1365px) {
+  .contactMain {
+    flex-direction: column;
+    margin: -100px auto 50px;
+  }
+}
+@media all and (max-width: 900px) {
+  .contactMain {
+    margin-top: 100px !important;
+  }
+}
+@media all and (max-width: 400px) {
+    .resume {
+        /* max-width: 390px; */
+        height: 403px;
+        cursor: zoom-in;
+      }
+  }
